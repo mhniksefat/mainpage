@@ -1,0 +1,109 @@
+.col-1{
+    width: 100%;
+    height: 370px;
+    background-color: #f9f9f9;
+}
+.col-1 .middling{
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.col-1 .middling .bala{
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.col-1 .middling .bala h3{
+    font-size: 26px;
+    font-family: yekan;
+    font-weight: bold;
+    text-align: center;
+}
+.col-1 .middling .middling-1{
+    width: 1112px;
+    height: 90px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.col-1 .swiper {
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+
+.col-1 .swiper-slide {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+
+.col-1 .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.col-1 .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    background-color: unset;
+    color: black;
+}
+.col-1 .swiper-button-prev:after,.col-1 .swiper-rtl .swiper-button-next:after{
+    font-size: 18px;
+    background-color: unset;
+    color: black;
+    
+}
+
+.col-1 .middling .below{
+    width: 100%;
+    height: 55px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.col-1 .look .center{
+    width: 273px;
+    height: 49px;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.col-1 .look .center a{
+    text-decoration: unset;
+    color:#00bf6f;
+    font-size: 18px;
+    font-family: yekan;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.col-1 .look .center:hover{
+    border: 1px solid #00bf6f;
+}
+
+
+

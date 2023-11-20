@@ -1,0 +1,285 @@
+header{
+    width:100%;
+    height: 200px;
+}
+header .topHeader{
+    width: inherit;
+    height: 60px;
+}
+header .topHeader a{
+    width: inherit;
+    height:inherit;
+    display: block;
+}
+header .topHeader a img{  
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+header .bottomHeader{
+    width: inherit;
+    height: 140px;
+}
+header .bottomHeader .tbh{
+    width: inherit;
+    height: 95px;
+}
+header .bottomHeader .tbh .center{
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+}
+header .bottomHeader .tbh .center .login{
+    width:270px;
+    height: inherit;
+    text-align: center;
+    display: inline-block;
+}
+header .bottomHeader .tbh .center .login a.basket {
+    display: inline-block;
+    margin-top: 27.5px;
+    vertical-align: middle;
+}
+header .bottomHeader .tbh .center .login a.register {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #00bf6f;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-top: 27.5px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-radius: 25px;
+    transition: 300ms;
+}
+header .bottomHeader .tbh .center .login a.basket  i{
+    color: #2b2b2b;
+    font-size: 25px;
+    transition: 300ms;
+}
+header .bottomHeader .tbh .center .login a.basket:hover i{
+    color: #00bf6f;
+    font-size: 26px;
+}
+header .bottomHeader .tbh .center .login a.register:hover {
+    background-color: #009657;
+    
+}
+header .bottomHeader .tbh .center .search{
+    width: 600px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+header .bottomHeader .tbh .center .search input[type=search]{
+    width: 565px;
+    height: 50px;
+    border-radius:50px;
+    display: block;
+    margin: 0 auto;
+    padding-right: 30px;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    outline: unset;
+    border: unset;
+    transition: 300ms;
+}
+
+header .bottomHeader .tbh .center .search input[type=search]::placeholder{
+    font-family: Yekan;
+    color: grey;
+
+}
+header .bottomHeader .tbh .center .search input[type=search]:focus{
+    box-shadow: 5px 5px 25px #2b2b2b;
+    font-weight: bold;
+}
+header .bottomHeader .tbh .center .logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    text-align: center;
+}
+
+header .bottomHeader .tbh .center .logo svg{
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+header .bottomHeader .menu{
+    width: 100%;
+    height: 45px;
+}
+header .bottomHeader .menu nav{
+     height: inherit;
+     width: 1180px;
+     margin: 0 auto;
+     padding-right: 30px;
+     box-sizing: border-box;
+}
+header .bottomHeader .menu nav ul{
+    width: 97px;
+    height: 100%;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+header .bottomHeader .menu nav ul li{
+    height: inherit;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+header .bottomHeader .menu nav ul li a{
+    height: inherit;
+    width: auto;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: yekan;
+    color: black;
+    font-size: 11px;
+    transition: 300ms;
+}
+header .bottomHeader .menu nav ul .bold{
+    width: 110px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: yekan;
+}
+header .bottomHeader .menu nav ul .bold i{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+header .bottomHeader .menu nav ul li a:hover{
+    border-bottom: 1px solid #00bf6f;
+
+}
+header .bottomHeader .menu nav ul li .submenu{
+    width: 85vw;
+    height: 70vh;
+    background-color: lightgrey;
+    position: absolute;
+    right: 0;
+    overflow: auto;
+    direction: ltr;
+    display: none;
+    z-index: 1;
+    
+}
+header .bottomHeader .menu nav ul li:hover .submenu{
+    display: block;
+}
+header .bottomHeader .menu nav ul li .submenu div{
+    width: 15%;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+}
+header .bottomHeader .menu nav ul li .submenu div div{
+    width: 100%;
+    height: 45px;
+ 
+    position: unset;
+}
+header .bottomHeader .menu nav ul li .submenu div div a{
+    display: block;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    color: #2b2b2b;
+    padding: 0 !important;
+    transition: 300ms;
+
+}
+header .bottomHeader .menu nav ul li .submenu div div a:hover{
+    background-color: lightgray;
+    color: #00bf6f;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #2b2b2b;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: grey;
+}
+header .bottomHeader .menu nav ul li .submenu div div .subsubmenu{
+    width: calc(85vw*0.85);
+    height: 100%;
+    
+    position: absolute;
+    right: 100%;
+    top: 0;
+    display: none;
+    
+}
+header .bottomHeader .menu nav ul li .submenu div div .subsubmenu div{
+    width: 100%;
+    height: 100%;
+   
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+    position: absolute;
+    right: 0;
+}
+header .bottomHeader .menu nav ul li .submenu div div .subsubmenu .into{
+    width: 30%;
+    height: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 170px;
+}
+header .bottomHeader .menu nav ul li .submenu div div:hover .subsubmenu{
+    display: block;
+}
+header .bottomHeader .menu nav ul li .submenu div div .subsubmenu h1{
+    font-family: yekan;
+    font-size: 12px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+header .bottomHeader .menu nav ul li .submenu div div .subsubmenu h6{
+    font-family: yekan;
+    font-size: 13px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: grey;
+}
+
+header .bottomHeader .menu nav ul li i{
+    
+    vertical-align: top;
+    margin-left: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.border span {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: grey;
+    margin: 0 10px;
+    vertical-align: middle;
+}

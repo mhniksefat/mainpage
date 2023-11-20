@@ -1,0 +1,237 @@
+.bestselling{
+    width: 100%;
+    height: 755px;
+}
+.bestselling .top{
+    width: inherit;
+    height: 46px;
+    
+}
+.bestselling .top h1{
+    font-family: yekan;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.bestselling .middle{
+    width: 100%;
+    height: 650px;
+}
+.bestselling .middle .middle-2{
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bestselling .swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.bestselling .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bestselling .swiper-slide img{
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-right: 20px;
+    
+}
+
+.bestselling .swiper-button-next,.bestselling .swiper-rtl .swiper-button-prev{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+}
+.bestselling .swiper-button-prev:after,.bestselling .swiper-rtl .swiper-button-next:after{
+    font-size: 18px;
+    color:#2b2b2b;
+}
+
+.bestselling .swiper-slide .rns{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+
+.bestselling .swiper-slide .rns span{
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: Yekan;
+    color: grey;
+    direction: rtl;
+}
+.bestselling .swiper-slide .rns .txtRns{
+    text-decoration:unset;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: yekan;
+}
+.bestselling .swiper-slide .rns-1 .wrap{
+    width: 58%;
+    height: inherit;
+    font-family: yekan;
+    color: grey;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl;
+}
+.bestselling .swiper-slide .rns-1{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+    
+}
+.bestselling .swiper-slide .rns-1 span{
+    font-size: 14px;
+    font-family: Yekan;
+    color: grey;
+}
+.bestselling .swiper-slide .rns-1 .txtRns-1{
+    width: 40%;
+    height: 30px;
+    text-decoration:unset;
+    color: #00bf6f;
+    font-size: 13px;
+    font-family: yekan;
+    direction: rtl;
+}
+
+.bestselling .swiper-slide .rns-2{
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    direction: rtl;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline;
+}
+.bestselling .swiper-slide .rns-2 span{
+    width: 30px;
+    height: 25px;
+    display: inline;
+    border-radius: 6px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 5PX;
+    font-family: yekan;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+.bestselling .swiper-slide .rns-3{
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    direction: rtl;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bestselling .swiper-slide .rns-3 span{
+    display: inline;
+    margin-right: 15px;
+    font-family: yekan;
+    font-size: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: grey;
+}
+.bestselling .swiper-slide .rns-4{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    direction: rtl;
+}
+.bestselling .swiper-slide .rns-4 span{
+    width: 60%;
+    height: 30px;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #00bf6f;
+    text-align: center;
+    position: relative;
+}
+.bestselling .swiper-slide .rns-4 span p{
+    font-size: 14px;
+    font-family: yekan;
+    color: whitesmoke;
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.bestselling .view{
+    width: 100%;
+    height: 55px;
+}
+.bestselling .view .center{
+    width: 273px;
+    height: 49px;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.bestselling .view .center a{
+    text-decoration: unset;
+    color:#00bf6f;
+    font-size: 18px;
+    font-family: yekan;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.bestselling .view .center:hover{
+    border: 1px solid #00bf6f;
+}
+
+

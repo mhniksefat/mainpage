@@ -1,0 +1,13 @@
+.fixed{
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    left: 20px;
+    bottom: 40px;
+    z-index: 2;
+}
+.fixed img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

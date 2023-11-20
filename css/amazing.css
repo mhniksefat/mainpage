@@ -1,0 +1,263 @@
+.amazing{
+    width: 100%;
+    height: 655px;
+}
+.amazing .center{
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+.amazing .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+ .amazing .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.amazing .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-right: 20px;
+    
+  }
+
+.amazing .swiper-button-next,.amazing .swiper-rtl .swiper-button-prev{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+}
+.amazing .swiper-button-prev:after,.amazing .swiper-rtl .swiper-button-next:after{
+    font-size: 18px;
+    color:#2b2b2b;
+}
+
+
+
+
+
+
+
+
+.amazing .swiper-slide .rns{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding: 0 7px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+.amazing .swiper-slide .rns span{
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: Yekan;
+    color: grey;
+    direction: rtl;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.amazing .swiper-slide .rns .txtRns{
+    text-decoration:unset;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: yekan;
+}
+.amazing .swiper-slide .rns-1{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+
+.amazing .swiper-slide .rns-1 .txtRns-1{
+    width: 40%;
+    height: 30px;
+    text-decoration:unset;
+    color: #00bf6f;
+    font-size: 13px;
+    font-family: yekan;
+    direction: rtl; 
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.amazing .swiper-slide .rns-1 .wrap{
+    width: 58%;
+    height: inherit;
+    font-family: yekan;
+    color: grey;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl;
+}
+.amazing-1{
+    width: 100%;
+    height: 80px;
+}
+.amazing-1 .center{
+    width: 1140px;
+    height: inherit;
+    position: relative;
+    margin: 0 auto;
+}
+.amazing-1 .center .right{
+    width: 370px;
+    height: 56px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.amazing-1 .center .right img{
+    width: 80%;
+}
+.amazing-1 .center .left{
+    width: 540px;
+    height: 56px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.amazing-1 .center .left .timer{
+    width: 300px;
+    height: inherit;
+    color: #00bf6f;
+    font-family: yekan;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 7px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.amazing-1 .center .left .timer-1 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f16422;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.amazing-1 .center .left .timer-2{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f16422;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.amazing-1 .center .left .timer-3{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f16422;
+    border-radius: 10px;
+}
+.amazing .swiper-slide .rns-2{
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    padding: 0 5px;
+    box-sizing: border-box;
+    direction: rtl;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline;
+}
+.amazing .swiper-slide .rns-2 span{
+    width: 30px;
+    height: 25px;
+    display: inline;
+    border-radius: 6px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 5PX;
+    font-family: yekan;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+.amazing .swiper-slide .rns-3{
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    direction: rtl;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.amazing .swiper-slide .rns-3 span{
+    display: inline;
+    margin-right: 15px;
+    font-family: yekan;
+    font-size: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: grey;
+}
+.amazing .sight{
+    width: 100%;
+    height: 55px;
+}
+.amazing .sight .center{
+    width: 273px;
+    height: 49px;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin: 0 auto;
+    position: relative;
+    transition: 300ms;
+}
+.amazing .sight .center a{
+    text-decoration: unset;
+    color:#00bf6f;
+    font-size: 18px;
+    font-family: yekan;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.amazing .sight .center:hover{
+    border: 1px solid #00bf6f;
+}
